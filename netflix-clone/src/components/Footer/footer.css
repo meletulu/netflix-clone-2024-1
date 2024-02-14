@@ -3,9 +3,10 @@
   color: gray;
   display: flex;
   justify-content: center;
+  padding-bottom: 40px;
 }
 .footer_inner_container {
-  width: 65%;
+  width: 70%;
   /* background-color: red; */
 }
 .footer_icons {

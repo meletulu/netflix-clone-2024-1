@@ -8,7 +8,7 @@
   /* background-color: rgb(148 132 132); */
   background-color: black;
   background-color: transparent;
-  height: 11vh;
+  height: 12vh;
   color: white;
   transition: all 0.5s;
   transition-timing-function: ease-in;
@@ -22,7 +22,7 @@
 /* } */
 
 .header_container {
-  width: 90%;
+  width: 85%;
   height: 10px;
   margin-top: 8px;
   display: flex;
@@ -32,9 +32,11 @@
   position: fixed;
   top: 0;
   background-color: black;
+  z-index: 1;
+  margin-right: 20px;
 }
 .header_left ul {
-  width: 140%;
+  width: 130%;
   height: 11.2vh;
   display: flex;
   justify-content: space-between;
@@ -42,15 +44,17 @@
   list-style: none;
   cursor: pointer;
   object-fit: contain;
-  margin-right: 20px;
+  margin-right: 5px;
   background-color: black;
 }
 .header_right ul {
   display: flex;
   align-items: right;
-  width: 140%;
+  width: 120%;
   justify-content: space-between;
   list-style: none;
   cursor: pointer;
+  object-fit: contain;
+  margin-right: 5px;
   /* background-color: black; */
 }
